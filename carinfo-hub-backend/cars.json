@@ -1,0 +1,564 @@
+
+[
+    {
+      "name": "Hyundai Creta",
+      "trim": "E",
+      "img": "./images/PetrolDiesel/Creta.png",
+      "price": "₹10.87 Lakh",
+      "mileage": "16.8 km/l",
+      "fuel": "Petrol",
+      "transmission": "Manual",
+      "engine": {
+        "displacement": "1497 cc",
+        "power": "113 bhp",
+        "torque": "144 Nm @ 4500 rpm",
+        "cylinders": "4",
+        "type": "1.5L MPi Petrol"
+      },
+
+      "dimensions": {
+        "length": "4300 mm",
+        "width": "1790 mm",
+        "height": "1635 mm",
+        "wheelbase": "2610 mm",
+        "groundClearance": "190 mm",
+        "tyreSize": "215/60 R17"
+      },
+      "colors": [
+        "Polar White",
+        "Phantom Black",
+        "Titan Grey",
+        "Galaxy Blue",
+        "Red Mulberry"
+      ]
+    },
+    {
+      "name": "Hyundai Creta",
+      "trim": "S",
+      "img": "./images/PetrolDiesel/Creta.png",
+      "price": "₹11.5 Lakh",
+      "mileage": "16 km/l",
+      "fuel": "Petrol",
+      "transmission": "Manual",
+      "engine": {
+        "displacement": "1497 cc",
+        "power": "113 bhp",
+        "torque": "144 Nm @ 4500 rpm",
+        "cylinders": "4",
+        "type": "1.5L MPi Petrol"
+      },
+      "dimensions": {
+        "length": "4300 mm",
+        "width": "1790 mm",
+        "height": "1635 mm",
+        "wheelbase": "2610 mm",
+        "groundClearance": "190 mm",
+        "tyreSize": "215/60 R17"
+      },
+      "colors": [
+        "Polar White",
+        "Phantom Black",
+        "Titan Grey",
+        "Galaxy Blue",
+        "Red Mulberry"
+      ]
+    },
+    {
+      "name": "Hyundai Creta",
+      "trim": "SX",
+      "img": "./images/PetrolDiesel/Creta.png",
+      "price": "₹13.77 Lakh",
+      "mileage": "16 km/l",
+      "fuel": "Diesel",
+      "transmission": "Automatic",
+      "engine": {
+        "displacement": "1493 cc",
+        "power": "115 bhp",
+        "torque": "250 Nm @ 1500-2750 rpm",
+        "cylinders": "4",
+        "type": "1.5L CRDi Diesel"
+      },
+      "dimensions": {
+        "length": "4300 mm",
+        "width": "1790 mm",
+        "height": "1635 mm",
+        "wheelbase": "2610 mm",
+        "groundClearance": "190 mm",
+        "tyreSize": "215/60 R17"
+      },
+      "colors": [
+        "Polar White",
+        "Phantom Black",
+        "Titan Grey",
+        "Galaxy Blue",
+        "Red Mulberry"
+      ]
+    },
+    {
+      "name": "Kia Seltos",
+      "trim": "HTE",
+      "img": "./images/PetrolDiesel/seltos.png",
+      "price": "₹10.90 Lakh",
+      "mileage": "17.5 km/l",
+      "fuel": "Petrol",
+      "transmission": "Manual",
+      "engine": {
+        "displacement": "1497 cc",
+        "power": "115 bhp",
+        "torque": "144 Nm @ 4500 rpm",
+        "cylinders": "4",
+        "type": "1.5L Smartstream G"
+      },
+      "dimensions": {
+        "length": "4315 mm",
+        "width": "1800 mm",
+        "height": "1645 mm",
+        "wheelbase": "2610 mm",
+        "groundClearance": "190 mm",
+        "tyreSize": "215/60 R16"
+      },
+      "colors": [
+        "Clear White",
+        "Steel Silver",
+        "Gravity Grey",
+        "Aurora Black Pearl",
+        "Imperial Blue"
+      ]
+    },
+    {
+      "name": "Kia Seltos",
+      "trim": "HTK",
+      "img": "./images/PetrolDiesel/seltos.png",
+      "price": "₹12.10 Lakh",
+      "mileage": "17 km/l",
+      "fuel": "Petrol",
+      "transmission": "Manual",
+      "engine": {
+        "displacement": "1497 cc",
+        "power": "115 bhp",
+        "torque": "144 Nm @ 4500 rpm",
+        "cylinders": "4",
+        "type": "1.5L Smartstream G"
+      },
+      "dimensions": {
+        "length": "4315 mm",
+        "width": "1800 mm",
+        "height": "1645 mm",
+        "wheelbase": "2610 mm",
+        "groundClearance": "190 mm",
+        "tyreSize": "215/60 R16"
+      },
+      "colors": [
+        "Clear White",
+        "Steel Silver",
+        "Gravity Grey",
+        "Aurora Black Pearl",
+        "Imperial Blue"
+      ]
+    },
+    {
+      "name": "Kia Seltos",
+      "trim": "GTX+",
+      "img": "./images/PetrolDiesel/seltos.png",
+      "price": "₹19.40 Lakh",
+      "mileage": "18 km/l",
+      "fuel": "Diesel",
+      "transmission": "Automatic",
+      "engine": {
+        "displacement": "1493 cc",
+        "power": "115 bhp",
+        "torque": "250 Nm @ 1500-2750 rpm",
+        "cylinders": "4",
+        "type": "1.5L CRDi VGT Diesel"
+      },
+      "dimensions": {
+        "length": "4315 mm",
+        "width": "1800 mm",
+        "height": "1645 mm",
+        "wheelbase": "2610 mm",
+        "groundClearance": "190 mm",
+        "tyreSize": "215/60 R17"
+      },
+      "colors": [
+        "Clear White",
+        "Steel Silver",
+        "Gravity Grey",
+        "Aurora Black Pearl",
+        "Imperial Blue"
+      ]
+    },
+    {
+      "name": "Tata Nexon",
+      "trim": "XE",
+      "img": "/images/PetrolDiesel/nexon.webp",
+      "price": "₹8.10 Lakh",
+      "mileage": "17.4 km/l",
+      "fuel": "Petrol",
+      "transmission": "Manual",
+      "engine": {
+        "displacement": "1199 cc",
+        "power": "120 bhp",
+        "torque": "170 Nm @ 1750-4000 rpm",
+        "cylinders": "3",
+        "type": "1.2L Revotron Turbo Petrol"
+      },
+      "dimensions": {
+        "length": "3993 mm",
+        "width": "1811 mm",
+        "height": "1606 mm",
+        "wheelbase": "2498 mm",
+        "groundClearance": "209 mm",
+        "tyreSize": "215/60 R16"
+      },
+      "colors": [
+        "Flame Red",
+        "Pure Silver",
+        "Daytona Grey",
+        "Calgary White",
+        "Atlas Black"
+      ]
+    },
+      {
+        "name": "Tata Nexon",
+        "trim": "XZ+",
+        "img": "./images/PetrolDiesel/nexon.webp",
+        "price": "₹11.70 Lakh",
+        "mileage": "17.4 km/l",
+        "fuel": "Diesel",
+        "transmission": "Automatic",
+        "engine": {
+          "displacement": "1497 cc",
+          "power": "110 bhp",
+          "torque": "260 Nm @ 1500-2750 rpm",
+          "cylinders": "4",
+          "type": "1.5L Revotorq Diesel"
+        },
+        "dimensions": {
+          "length": "3993 mm",
+          "width": "1811 mm",
+          "height": "1606 mm",
+          "wheelbase": "2498 mm",
+          "groundClearance": "209 mm",
+          "tyreSize": "215/60 R16"
+        },
+        "colors": [
+          "Flame Red",
+          "Pure Silver",
+          "Daytona Grey",
+          "Calgary White",
+          "Atlas Black"
+        ]
+      },
+      {
+        "name": "Maruti Brezza",
+        "trim": "LXi",
+        "img": "./images/PetrolDiesel/brezza.png",
+        "price": "₹8.29 Lakh",
+        "mileage": "17.38 km/l",
+        "fuel": "Petrol",
+        "transmission": "Manual",
+        "engine": {
+          "displacement": "1462 cc",
+          "power": "103 bhp",
+          "torque": "137 Nm @ 4400 rpm",
+          "cylinders": "4",
+          "type": "1.5L K15C Smart Hybrid"
+        },
+        "dimensions": {
+          "length": "3995 mm",
+          "width": "1790 mm",
+          "height": "1642 mm",
+          "wheelbase": "2500 mm",
+          "groundClearance": "198 mm",
+          "tyreSize": "215/60 R16"
+        },
+        "colors": [
+          "Pearl Arctic White",
+          "Splendid Silver",
+          "Granite Grey",
+          "Sizzling Red",
+          "Brave Khaki"
+        ]
+      },
+      {
+        "name": "Maruti Brezza",
+        "trim": "ZXi+",
+        "img": "./images/PetrolDiesel/brezza.png",
+        "price": "₹12.85 Lakh",
+        "mileage": "19.80 km/l",
+        "fuel": "Petrol",
+        "transmission": "Automatic",
+        "engine": {
+          "displacement": "1462 cc",
+          "power": "103 bhp",
+          "torque": "137 Nm @ 4400 rpm",
+          "cylinders": "4",
+          "type": "1.5L K15C Smart Hybrid"
+        },
+        "dimensions": {
+          "length": "3995 mm",
+          "width": "1790 mm",
+          "height": "1642 mm",
+          "wheelbase": "2500 mm",
+          "groundClearance": "198 mm",
+          "tyreSize": "215/60 R16"
+        },
+        "colors": [
+          "Pearl Arctic White",
+          "Splendid Silver",
+          "Granite Grey",
+          "Sizzling Red",
+          "Brave Khaki"
+        ]
+      },
+      {
+        "name": "Maruti Fronx",
+        "trim": "Delta+",
+        "img": "./images/PetrolDiesel/fronx.avif",
+        "price": "₹8.72 Lakh",
+        "mileage": "21.79 km/l",
+        "fuel": "Petrol",
+        "transmission": "Manual",
+        "engine": {
+          "displacement": "1197 cc",
+          "power": "89 bhp",
+          "torque": "113 Nm @ 4400 rpm",
+          "cylinders": "4",
+          "type": "1.2L K12N DualJet"
+        },
+        "dimensions": {
+          "length": "3995 mm",
+          "width": "1765 mm",
+          "height": "1550 mm",
+          "wheelbase": "2520 mm",
+          "groundClearance": "190 mm",
+          "tyreSize": "195/60 R16"
+        },
+        "colors": [
+          "Arctic White",
+          "Splendid Silver",
+          "Grandeur Grey",
+          "Earthen Brown",
+          "Opulent Red"
+        ]
+      },
+      {
+        "name": "Toyota Fortuner",
+        "trim": "4X2",
+        "img": "./images/PetrolDiesel/fortuner.jpg",
+        "price": "₹32.99 Lakh",
+        "mileage": "10.01 km/l",
+        "fuel": "Diesel",
+        "transmission": "Manual",
+        "engine": {
+          "displacement": "2755 cc",
+          "power": "201 bhp",
+          "torque": "500 Nm @ 1600-2800 rpm",
+          "cylinders": "4",
+          "type": "2.8L D-4D Diesel"
+        },
+        "dimensions": {
+          "length": "4795 mm",
+          "width": "1855 mm",
+          "height": "1835 mm",
+          "wheelbase": "2745 mm",
+          "groundClearance": "225 mm",
+          "tyreSize": "265/65 R17"
+        },
+        "colors": [
+          "Super White",
+          "Attitude Black",
+          "Grey Metallic",
+          "Silver Metallic",
+          "Phantom Brown"
+        ]
+      },
+      {
+        "name": "Toyota Fortuner",
+        "trim": "Legender",
+        "img": "./images/PetrolDiesel/fortuner.jpg",
+        "price": "₹43.66 Lakh",
+        "mileage": "8.01 km/l",
+        "fuel": "Diesel",
+        "transmission": "Automatic",
+        "engine": {
+          "displacement": "2755 cc",
+          "power": "201 bhp",
+          "torque": "500 Nm @ 1600-2800 rpm",
+          "cylinders": "4",
+          "type": "2.8L D-4D Diesel"
+        },
+        "dimensions": {
+          "length": "4795 mm",
+          "width": "1855 mm",
+          "height": "1835 mm",
+          "wheelbase": "2745 mm",
+          "groundClearance": "225 mm",
+          "tyreSize": "265/65 R17"
+        },
+        "colors": [
+          "Pearl White",
+          "Attitude Black",
+          "Sparkling Black Crystal Shine"
+        ]
+      },
+
+    {
+      "name": "Mahindra XUV700",
+      "trim": "AX3",
+      "img": "./images/PetrolDiesel/xuv700.jpg",
+      "price": "₹17.49 Lakh",
+      "mileage": "16.1 km/l",
+      "fuel": "Petrol",
+      "transmission": "Manual",
+      "engine": {
+        "displacement": "1999 cc",
+        "power": "200 bhp",
+        "torque": "380 Nm @ 1750-3000 rpm",
+        "cylinders": "4",
+        "type": "2.0L mStallion Turbo Petrol"
+      },
+      "dimensions": {
+        "length": "4695 mm",
+        "width": "1890 mm",
+        "height": "1755 mm",
+        "wheelbase": "2750 mm",
+        "groundClearance": "200 mm",
+        "tyreSize": "235/65 R17"
+      },
+      "colors": [
+        "Everest White",
+        "Midnight Black",
+        "Electric Blue",
+        "Red Rage",
+        "Dazzling Silver"
+      ]
+    },
+    {
+      "name": "Mahindra Scorpio-N",
+      "trim": "Z2",
+      "img": "./images/PetrolDiesel/scorpion.jpg",
+      "price": "₹13.26 Lakh",
+      "mileage": "15.4 km/l",
+      "fuel": "Petrol",
+      "transmission": "Manual",
+      "engine": {
+        "displacement": "1997 cc",
+        "power": "200 bhp",
+        "torque": "380 Nm @ 1750-3000 rpm",
+        "cylinders": "4",
+        "type": "2.0L mStallion Turbo Petrol"
+      },
+      "dimensions": {
+        "length": "4662 mm",
+        "width": "1917 mm",
+        "height": "1870 mm",
+        "wheelbase": "2750 mm",
+        "groundClearance": "187 mm",
+        "tyreSize": "245/65 R17"
+      },
+      "colors": [
+        "Grand White",
+        "Deep Forest",
+        "Royal Gold",
+        "Napoli Black",
+        "Red Rage"
+      ]
+    },
+    {
+      "name": "Mahindra Scorpio-N",
+      "trim": "Z8L",
+      "img": "./images/PetrolDiesel/scorpion.jpg",
+      "price": "₹23.90 Lakh",
+      "mileage": "14.5 km/l",
+      "fuel": "Diesel",
+      "transmission": "Automatic",
+      "engine": {
+        "displacement": "2184 cc",
+        "power": "172 bhp",
+        "torque": "400 Nm @ 1750-2750 rpm",
+        "cylinders": "4",
+        "type": "2.2L mHawk Diesel"
+      },
+      "dimensions": {
+        "length": "4662 mm",
+        "width": "1917 mm",
+        "height": "1870 mm",
+        "wheelbase": "2750 mm",
+        "groundClearance": "187 mm",
+        "tyreSize": "255/60 R18"
+      },
+      "colors": [
+        "Grand White",
+        "Deep Forest",
+        "Royal Gold",
+        "Napoli Black",
+        "Red Rage"
+      ]
+    },
+    {
+      "name": "Mahindra XUV300",
+      "trim": "W8",
+      "img": "./images/PetrolDiesel/xuv300.jpg",
+      "price": "₹12.54 Lakh",
+      "mileage": "20 km/l",
+      "fuel": "Diesel",
+      "transmission": "Automatic",
+      "engine": {
+        "displacement": "1497 cc",
+        "power": "115 bhp",
+        "torque": "300 Nm @ 1500-2500 rpm",
+        "cylinders": "4",
+        "type": "1.5L Turbo Diesel"
+      },
+      "dimensions": {
+        "length": "3995 mm",
+        "width": "1821 mm",
+        "height": "1627 mm",
+        "wheelbase": "2600 mm",
+        "groundClearance": "180 mm",
+        "tyreSize": "215/55 R17"
+      },
+      "colors": [
+        "Pearl White",
+        "Napoli Black",
+
+        
+        "Aquamarine",
+        "Red Rage",
+        "Galaxy Grey"
+      ]
+    },
+    {
+      "name": "Mahindra Bolero",
+      "trim": "B4",
+      "img": "./images/PetrolDiesel/bolero.jpg",
+      "price": "₹9.78 Lakh",
+      "mileage": "16.7 km/l",
+      "fuel": "Diesel",
+      "transmission": "Manual",
+      "engine": {
+        "displacement": "1493 cc",
+        "power": "75 bhp",
+        "torque": "210 Nm @ 1600-2200 rpm",
+        "cylinders": "3",
+        "type": "1.5L mHawk75 Diesel"
+      },
+      "dimensions": {
+        "length": "3995 mm",
+        "width": "1745 mm",
+        "height": "1880 mm",
+        "wheelbase": "2680 mm",
+        "groundClearance": "180 mm",
+        "tyreSize": "215/75 R15"
+      },
+      "colors": [
+        "Diamond White",
+        "Highway Red",
+        "Lakeside Brown",
+        "Mist Silver"
+      ]
+    }
+]
+ 
+  

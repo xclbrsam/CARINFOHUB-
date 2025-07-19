@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CarInfo HUB - Car Info & Prices</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <div class="logo">CarInfo <span>HUB</span></div>
+      <nav class="nav-links">
+        
+        <a href="#find-car">Find Your Car</a>
+        <a href="#electric-cars">Electric Cars</a>
+        <a href="#latest-cars">Latest Cars</a>
+        <a href="#popular-brands">Brands</a>
+        <a href="#comparison">Compare</a>
+      </nav>
+    
+      
+    </div>
+    
+  </header>
+
+  <!-- Hero Section -->
+  <div class="hero-content container"   id="find-car">
+    <h1 class="fade-in">Find Your Perfect Car</h1>
+    <p class="fade-in delay-1">Browse by budget, body type, or fuel type – we've got the info you need.</p>
+    
+    <form class="search-form slide-up delay-2" id="carSearchForm">
+      <select name="budget" id="budgetSelect" required>
+        <option value="">Select Budget</option>
+        <option value="under5">Under ₹5 Lakh</option>
+        <option value="5to10">₹5-10 Lakh</option>
+        <option value="10to15">₹10-15 Lakh</option>
+        <option value="15plus">Above ₹15 Lakh</option>
+      </select>
+  
+      <select name="fuel" id="fuelSelect" required>
+        <option value="">Fuel Type</option>
+        <option value="Petrol">Petrol</option>
+        <option value="Diesel">Diesel</option>
+      </select>
+  
+      <select name="transmission" id="transmissionSelect" >
+        <option value="">Transmission</option>
+        <option value="Manual">Manual</option>
+        <option value="Automatic">Automatic</option>
+      </select>
+  
+      <button type="submit">Search</button>
+    </form>
+    
+
+    <!-- Add this div for search results -->
+    
+ 
+  </div>
+  
+ <section>
+  
+
+  <div id="searchResults" class="search-results-grid">
+  </div>
+  
+</section>
+  <!-- Electric Cars Section -->
+<section class="electric-cars" id="electric-cars">
+    <div class="container">
+      <h2>Explore Electric Cars</h2>
+      <p class="section-subtitle">Discover eco-friendly, high-performance electric vehicles.</p>
+  
+      <div class="car-grid">
+        <!-- Card 1 -->
+        <div class="car-card">
+          <img src="images/electric/BE6.webp" alt="Electric Car 1">
+          <h3>Mahindra BE 6</h3>
+          <p>Starting from ₹18.90 Lakh</p>
+          <a href="viewdetails/viewBE6.html" class="btn">View Details</a>
+        </div>
+  
+        <!-- Card 2 -->
+        <div class="car-card">
+          <img src="images/electric/ZS EV.png" alt="Electric Car 2">
+          <h3>MG ZS EV</h3>
+          <p>Starting from ₹23 Lakh</p>
+          <a href="viewdetails/viewZSEV.html" class="btn">View Details</a>
+        </div>
+  
+        <!-- Card 3 -->
+        <div class="car-card">
+          <img src="images/electric/Hyundai_Ioniq_5_.avif" alt="Electric Car 3">
+          <h3>Hyundai IONIQ 5</h3>
+          <p>Starting from ₹44 Lakh</p>
+          <a href="viewdetails/ioniq5.html" class="btn">View Details</a>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="car-card">
+            <img src="images/electric/XEV 9E.webp" alt="Electric Car 1">
+            <h3>Mahindra XEV 9E</h3>
+            <p>Starting from ₹ 21.90 Lakh</p>
+            <a href="viewdetails/viewXEV9E.html" class="btn">View Details</a>
+          </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Latest Cars Section -->
+<section class="latest-cars" id="latest-cars">
+    <div class="container">
+      <h2>Latest Car Launches</h2>
+      <p class="section-subtitle">Check out the newest rides hitting the roads.</p>
+  
+      <div class="latest-car-grid">
+        <!-- Latest Car 1 -->
+        <div class="car-card">
+          <img src="images/PetrolDiesel/Seltos.png" alt="Latest Car 1">
+          <h3>Kia Seltos 2025</h3>
+          <p>Starts at ₹12.5 Lakh</p>
+          <a href="explorebutton/explorekia.html" class="btn">Explore</a>
+        </div>
+  
+        <!-- Latest Car 2 -->
+        <div class="car-card">
+          <img src="explorebutton/fronx.avif" alt="Latest Car 2">
+          <h3>Maruti Fronx</h3>
+          <p>Starts at ₹8 Lakh</p>
+          <a href="explorebutton/explorefronx.html" class="btn">Explore</a>
+        </div>
+  
+        <!-- Latest Car 3 -->
+        <div class="car-card">
+          <img src="images/electric/Tata-Punch-EV-1-jpg.webp" alt="Latest Car 3">
+          <h3>Tata Punch EV</h3>
+          <p>Starts at ₹11 Lakh</p>
+          <a href="explorebutton/explorepunch.html" class="btn">Explore</a>
+        </div>
+
+        <!-- Latest Car 4 -->
+        <div class="car-card">
+            <img src="images/PetrolDiesel/syros.webp" alt="Latest Car 3">
+            <h3>KIA Syros</h3>
+            <p>Starts at ₹8.99 Lakh</p>
+         
+            <a href="explorebutton/syros.html" class="btn">Explore</a>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Brands Section -->
+<section class="popular-brands" id="popular-brands">
+    <div class="container">
+      <h2>Popular Car Brands</h2>
+      <p class="section-subtitle">Browse cars by your favorite manufacturer.</p>
+  
+      <div class="brand-logos">
+        <!-- Brand 1 -->
+        <a href="https://www.toyotabharat.com/" class="brand">
+          <img src="images/brand logos/toyota.png" alt="Toyota">
+        </a>
+  
+        <!-- Brand 2 -->
+        <a href="https://www.hyundai.com/in/en" class="brand">
+          <img src="images/brand logos/hyundai1.jpeg" alt="Hyundai">
+        </a>
+  
+        <!-- Brand 3 -->
+        <a href="https://www.tatamotors.com/" class="brand">
+          <img src="images/brand logos/tata-motors.jpg" alt="Tata">
+        </a>
+  
+        <!-- Brand 4 -->
+        <a href="https://www.kia.com/in/home.html" class="brand">
+          <img src="images/brand logos/kia.jpg" alt="Kia">
+        </a>
+  
+        <!-- Brand 5 -->
+        <a href="https://www.mahindra.com/our-business/automotive" class="brand">
+          <img src="images/brand logos/mahindra-suv1293.jpg" alt="Mahindra">
+        </a>
+  
+        <!-- Brand 6 -->
+        <a href="https://www.hondacarindia.com/" class="brand">
+          <img src="images/brand logos/honda.png" alt="Honda">
+        </a>
+      </div>
+    </div>
+  </section>
+ <!-- comparison-section -->
+  <section class="comparison-section" id="comparison">
+    <div class="container">
+      <h2>Compare Cars</h2>
+      <p class="section-subtitle">Choose and compare car trims side-by-side</p>
+  
+      <div class="selectors">
+        <div class="car-selector">
+          <select id="brandFilter1" class="brand-filter">
+            <option value="">All Brands</option>
+            <option value="toyota">Toyota</option>
+            <option value="hyundai">Hyundai</option>
+            <option value="tata">Tata</option>
+            <option value="kia">Kia</option>
+            <option value="mahindra">Mahindra</option>
+            <option value="honda">Honda</option>
+          </select>
+          <select id="fuelFilter1" class="fuel-filter">
+            <option value="">All Fuel Types</option>
+            <option value="Petrol">Petrol</option>
+            <option value="Diesel">Diesel</option>
+          </select>
+          <select id="car1Select"></select>
+        </div>
+  
+        <div class="car-selector">
+          <select id="brandFilter2" class="brand-filter">
+            <option value="">All Brands</option>
+            <option value="toyota">Toyota</option>
+            <option value="hyundai">Hyundai</option>
+            <option value="tata">Tata</option>
+            <option value="kia">Kia</option>
+            <option value="mahindra">Mahindra</option>
+            <option value="honda">Honda</option>
+          </select>
+          <select id="fuelFilter2" class="fuel-filter">
+            <option value="">All Fuel Types</option>
+            <option value="Petrol">Petrol</option>
+            <option value="Diesel">Diesel</option>
+          </select>
+          <select id="car2Select"></select>
+        </div>
+      </div>
+  
+      <button id="applyCompareBtn">Apply</button>
+      <button id="resetCompareBtn">Reset</button>
+     
+      <div class="comparison-table">
+        <div class="car-compare" id="car1Card"></div>
+        <div class="car-compare" id="car2Card"></div>
+      </div>
+    </div>
+  </section>
+  
+    
+  </section>
+  
+  
+  
+
+<!-- Add this before the closing body tag -->
+<script>
+const carSearchForm = document.getElementById('carSearchForm');
+const searchResults = document.getElementById('searchResults');
+
+carSearchForm.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  
+  const budget = document.getElementById('budgetSelect').value;
+  const fuel = document.getElementById('fuelSelect').value;
+  const transmission = document.getElementById('transmissionSelect').value;
+
+  try {
+    // In your search form event listener, update the fetch URL:
+    const response = await fetch(`http://localhost:5000/api/search/cars?budget=${budget}&fuel=${fuel}&transmission=${transmission}`);
+    const cars = await response.json();
+    displaySearchResults(cars);
+  } catch (error) {
+    console.error('Error:', error);
+    searchResults.innerHTML = '<p>Error fetching results. Please try again.</p>';
+  }
+});
+
+// Replace the existing displaySearchResults function
+function displaySearchResults(cars) {
+  if (cars.length === 0) {
+    searchResults.innerHTML = '<p class="no-results">No cars found matching your criteria.</p>';
+    return;
+  }
+
+  searchResults.innerHTML = `
+    <div class="search-results-container">
+      ${cars.map(car => `
+        <div class="car-card search-result">
+          <img src="${car.img}" alt="${car.name}" class="car-image">
+          <div class="car-info">
+            <h3>${car.name} ${car.trim}</h3>
+            <p class="car-price">${car.price}</p>
+            <div class="car-details">
+              <p><i class="fas fa-gas-pump"></i> ${car.fuel}</p>
+              <p><i class="fas fa-tachometer-alt"></i> ${car.mileage}</p>
+              <p><i class="fas fa-cog"></i> ${car.transmission}</p>
+            </div>
+          </div>
+        </div>
+      `).join('')}
+    </div>
+  `;
+}
+
+function showCarDetails(name, trim) {
+  // Implement detailed view functionality
+  console.log(`Showing details for ${name} ${trim}`);
+}
+</script>
+
+  <!-- Script -->
+<script>
+  const car1Select = document.getElementById('car1Select');
+  const car2Select = document.getElementById('car2Select');
+  const car1Card = document.getElementById('car1Card');
+  const car2Card = document.getElementById('car2Card');
+  const applyCompareBtn = document.getElementById('applyCompareBtn');
+  const resetCompareBtn = document.getElementById('resetCompareBtn');
+
+  let cars = [];
+  let filteredCars = [];
+
+  async function fetchCars() {
+    try {
+      const params1 = new URLSearchParams({
+        brand: brandFilter1.value || '',
+        fuel: fuelFilter1.value || ''
+      });
+
+      const params2 = new URLSearchParams({
+        brand: brandFilter2.value || '',
+        fuel: fuelFilter2.value || ''
+      });
+
+      const res = await fetch('http://localhost:5000/api/cars');
+      filteredCars = await res.json();
+      populateDropdowns();
+    } catch (error) {
+      console.error('Error fetching car data:', error);
+    }
+  }
+
+  const brandFilter1 = document.getElementById('brandFilter1');
+  const brandFilter2 = document.getElementById('brandFilter2');
+
+  function populateDropdowns() {
+    car1Select.innerHTML = '';
+    car2Select.innerHTML = '';
+
+    const selectedBrand1 = brandFilter1.value;
+    const selectedBrand2 = brandFilter2.value;
+    const selectedFuel1 = document.getElementById('fuelFilter1').value;
+    const selectedFuel2 = document.getElementById('fuelFilter2').value;
+
+    let filteredForCar1 = filteredCars;
+    let filteredForCar2 = filteredCars;
+
+    // Apply brand filter for car 1
+    if (selectedBrand1) {
+      filteredForCar1 = filteredForCar1.filter(car => 
+        car.name.toLowerCase().includes(selectedBrand1.toLowerCase())
+      );
+    }
+
+    // Apply fuel filter for car 1
+    if (selectedFuel1) {
+      filteredForCar1 = filteredForCar1.filter(car => 
+        car.fuel === selectedFuel1
+      );
+    }
+
+    // Apply brand filter for car 2
+    if (selectedBrand2) {
+      filteredForCar2 = filteredForCar2.filter(car => 
+        car.name.toLowerCase().includes(selectedBrand2.toLowerCase())
+      );
+    }
+
+    // Apply fuel filter for car 2
+    if (selectedFuel2) {
+      filteredForCar2 = filteredForCar2.filter(car => 
+        car.fuel === selectedFuel2
+      );
+    }
+
+    // Populate dropdowns with filtered results
+    filteredForCar1.forEach(car => {
+      const displayName = `${car.name} - ${car.trim} (${car.fuel})`;
+      const valueKey = `${car.name}_${car.trim}_${car.fuel}`;
+      car1Select.add(new Option(displayName, valueKey));
+    });
+
+    filteredForCar2.forEach(car => {
+      const displayName = `${car.name} - ${car.trim} (${car.fuel})`;
+      const valueKey = `${car.name}_${car.trim}_${car.fuel}`;
+      car2Select.add(new Option(displayName, valueKey));
+    });
+
+    car1Select.selectedIndex = 0;
+    car2Select.selectedIndex = 0;
+
+    updateDisabledOptions();
+}
+
+// Add event listeners for fuel filters
+document.getElementById('fuelFilter1').addEventListener('change', populateDropdowns);
+document.getElementById('fuelFilter2').addEventListener('change', populateDropdowns);
+
+  function updateComparison() {
+    const selected1 = car1Select.value;
+    const selected2 = car2Select.value;
+
+    const car1 = filteredCars.find(c => `${c.name}_${c.trim}_${c.fuel}` === selected1);
+    const car2 = filteredCars.find(c => `${c.name}_${c.trim}_${c.fuel}` === selected2);
+
+    if (!car1 || !car2 || selected1 === selected2) return;
+
+    car1Card.innerHTML = createCardHTML(car1);
+    car2Card.innerHTML = createCardHTML(car2);
+  }
+
+  function updateDisabledOptions() {
+    const selected1 = car1Select.value;
+    const selected2 = car2Select.value;
+
+    Array.from(car1Select.options).forEach(opt => {
+      opt.disabled = opt.value === selected2;
+    });
+
+    Array.from(car2Select.options).forEach(opt => {
+      opt.disabled = opt.value === selected1;
+    });
+  }
+
+  function createCardHTML(car) {
+    return `
+      <img src="${car.img}" alt="${car.name}">
+      <h3>${car.name} - ${car.trim}</h3>
+      <ul>
+        <li><strong>Price:</strong> ${car.price}</li>
+        <li><strong>Mileage:</strong> ${car.mileage}</li>
+        <li><strong>Fuel Type:</strong> ${car.fuel}</li>
+        <li><strong>Transmission:</strong> ${car.transmission}</li>
+      <li><strong>Engine</strong> ${car.engine}</li>
+            <li><strong>Dimension</strong> ${car.dimensions}</li>
+                  <li><strong>Colors</strong> ${car.colors}</li>
+        </ul>
+    `;
+  }
+
+  car1Select.addEventListener('change', () => {
+    updateDisabledOptions();
+  });
+
+  car2Select.addEventListener('change', () => {
+    updateDisabledOptions();
+  });
+
+  applyCompareBtn.addEventListener('click', updateComparison);
+
+  resetCompareBtn.addEventListener('click', () => {
+    populateDropdowns();
+    car1Card.innerHTML = '';
+    car2Card.innerHTML = '';
+  });
+
+  fetchCars();
+  function saveComparison() {
+  const car1 = document.getElementById('car1').value;
+  const car2 = document.getElementById('car2').value;
+  if (car1 === car2) return alert("Cannot save same car comparison.");
+
+  const saved = JSON.parse(localStorage.getItem("savedComparisons") || "[]");
+  saved.push({ car1, car2, date: new Date().toLocaleString() });
+  localStorage.setItem("savedComparisons", JSON.stringify(saved));
+  loadSavedComparisons();
+}
+
+function loadSavedComparisons() {
+  const saved = JSON.parse(localStorage.getItem("savedComparisons") || "[]");
+  const container = document.getElementById("savedComparisons");
+  if (saved.length === 0) {
+    container.innerHTML = "<p>No saved comparisons yet.</p>";
+    return;
+  }
+
+  container.innerHTML = "<h3>Saved Comparisons</h3><ul>" +
+    saved.map((c, i) =>
+      `<li>
+        <a href="#" onclick="compareSaved(${i})">
+          Compare ID ${c.car1} vs ${c.car2} (${c.date})
+        </a>
+      </li>`).join('') +
+    "</ul>";
+}
+
+async function compareSaved(index) {
+  const saved = JSON.parse(localStorage.getItem("savedComparisons") || "[]");
+  const { car1, car2 } = saved[index];
+  document.getElementById('car1').value = car1;
+  document.getElementById('car2').value = car2;
+  compareCars();
+}
+
+loadSavedComparisons();
+const baseURL = "http://localhost:5000";
+
+container.innerHTML = cars.map(car => `
+  <div class="car-card">
+    <img src="${baseURL + car.image}" alt="${car.name}">
+    <h3>${car.name}</h3>
+    <p><strong>Brand:</strong> ${car.brand}</p>
+    <p><strong>Fuel:</strong> ${car.fuel}</p>
+    <p><strong>Price:</strong> ${car.price}</p>
+  </div>
+`).join('');
+
+
+</script>
+  
+  
+  
+  
+  <!-- Footer -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-brand">
+      <h2>CarInfo <span>HUB</span></h2>
+      <p>Your trusted source for latest car prices, comparisons, and updates.</p>
+    <p>Created By Students Of Pravara Rural Engineering College</p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#hero">Find Your Car</a></li>
+        <li><a href="#electric-cars">Electric Cars</a></li>
+        <li><a href="#latest-cars">Latest Cars</a></li>
+        <li><a href="#popular-brands">Popular Brands</a></li>
+        <li><a href="#comparison">Comparison</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h4>Contact Us</h4>
+      <p>Email: aherswami2019@gmail.com</p>
+      <p>Phone: +91 9823472467</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 CarInfo HUB. All rights reserved.</p>
+    <p>PBL II Project BY SE Computer Students</p>
+  </div>
+</footer>
+
+  
+  
+</body>
+</html>
